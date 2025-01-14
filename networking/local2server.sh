@@ -13,15 +13,15 @@ if [ "$IP" == "$HOST" ]; then
 fi
 
 local_dir=${DATA_DISK_DIR}
-read -p "请输入待传输目录/文件的绝对路径" source_dir
+read -p "please input absolute path to transfer" source_dir
 check=$(echo "$source_dir" | grep -F "${local_dir}")
 if [ -z "$check" ]; then
-    echo "将待传输目录/文件放在${local_dir}下"
+    echo "path to transfer: ${local_dir}"
     exit
 fi
 dest_dir=$(echo "$source_dir" | sed "s#${local_dir}#/data/$USERNAME#g")
 if [ ! -d "$source_dir" ] && [ ! -f "$source_dir" ]; then
-    echo "本地不存在路径为${source_dir}的目录/文件"
+    echo "non-exist ${source_dir} locally"
     exit
 fi
 

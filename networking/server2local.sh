@@ -13,16 +13,16 @@ if [ "$IP" == "$HOST" ]; then
 fi
 
 server_dir=/data/$USERNAME
-read -p "请输入待传输目录/文件的绝对路径" source_dir
+read -p "please input absolute path to transfer" source_dir
 check=$(echo "$source_dir" | grep -F "${server_dir}")
 if [ -z "$check" ]; then
-    echo "将待传输目录/文件放在$USERNAME@$HOST:${server_dir}下"
+    echo "non-exist USERNAME@$HOST:${server_dir}"
     exit
 fi
 dest_dir=$(echo "$source_dir" | sed "s#${server_dir}#${DATA_DISK_DIR}#g")
 if sshpass -p $PASSWORD ssh -o StrictHostKeyChecking=no $USERNAME@$HOST "[ ! -d $source_dir ]" &&
     sshpass -p $PASSWORD ssh -o StrictHostKeyChecking=no $USERNAME@$HOST "[ ! -f $source_dir ]"; then
-    echo "${USERNAME}@${HOST}不存在路径为${source_dir}的目录/文件"
+    echo "non-exist ${USERNAME}@${HOST}:${source_dir}"
     exit
 fi
 

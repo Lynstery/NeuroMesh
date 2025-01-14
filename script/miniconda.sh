@@ -11,6 +11,6 @@ if [ ! -f "$latest_version" ]; then
     curl -O $url$latest_version
 fi
 chmod +x $latest_version
-echo "注意：面对\"Do you wish to update your shell profile to automatically initialize conda?\"时应选择yes"
+echo "should choose yes for \"Do you wish to update your shell profile to automatically initialize conda?\""
 ./$latest_version
 rm -rf $latest_version

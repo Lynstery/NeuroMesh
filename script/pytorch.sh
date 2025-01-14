@@ -12,21 +12,20 @@ HOST="mirrors.nju.edu.cn"
 if [ -n "$1" ] && [ ! -n "$2" ]; then
     if [ "$1" = "1" ]; then
         error=0
-        echo "安装PyTorch..."
+        echo "install PyTorch..."
         pip3 install torch torchvision torchaudio -i $MIRRORS --trusted-host $HOST
         pip3 install --upgrade torch torchvision torchaudio -i $MIRRORS --trusted-host $HOST
         echo
         pip3 show torch
-        echo -e "\e[31m更新PyTorch后CUDA可能需要对应更新\e[0m"
         cuda=$(grep -m 1 'cuda_ver=' './cuda.sh' | grep -oP 'cuda_ver\s*=\s*\K[^,]*')
-        echo "推荐CUDA版本为"$cuda
+        echo "recommended cuda version:"$cuda
     elif [ "$1" = "0" ]; then
         error=0
-        echo "卸载PyTorch..."
+        echo "uninstall PyTorch..."
         pip3 uninstall torch torchvision torchaudio -y
     fi
 fi
 if [ $error -eq 1 ]; then
-    echo "./pytorch.sh 1 安装PyTorch"
-    echo "./pytorch.sh 0 卸载PyTorch"
+    echo "./pytorch.sh 1 install PyTorch"
+    echo "./pytorch.sh 0 uninstall PyTorch"
 fi
