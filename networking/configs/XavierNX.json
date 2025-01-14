@@ -1,0 +1,9 @@
+{
+    "host": "114.212.86.61",
+    "username": "dislab",
+    "password": "dislab",
+    "servershell": "zsh",
+    "clientpass": "123",
+    "clientport": "7890",
+    "info": "(Jetpack 5.1.1 16GB)"
+}

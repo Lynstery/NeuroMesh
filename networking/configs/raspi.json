@@ -1,0 +1,9 @@
+{
+    "host": "114.212.82.141",
+    "username": "dislab",
+    "password": "dislab",
+    "servershell": "bash",
+    "clientpass": "123",
+    "clientport": "7890",
+    "info": "(4 CPUs, 8 GB)"
+}

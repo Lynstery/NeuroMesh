@@ -1,0 +1,9 @@
+{
+    "host": "114.212.84.42",
+    "username": "xavier",
+    "password": "xavier123",
+    "servershell": "bash",
+    "clientpass": "123",
+    "clientport": "7890",
+    "info": "(Jetpack 5.1.1 32 GB)"
+}

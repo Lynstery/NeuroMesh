@@ -1,0 +1,9 @@
+{
+    "host": "114.212.86.152",
+    "username": "zh",
+    "password": "zh",
+    "servershell": "zsh",
+    "clientpass": "123",
+    "clientport": "7890",
+    "info": "(2x GeForce RTX 3090) 注意：该服务器上人数众多，尽量测试推理而不是训练"
+}

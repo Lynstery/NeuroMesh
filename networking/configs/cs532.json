@@ -1,0 +1,9 @@
+{
+    "host": "114.212.87.103",
+    "username": "zh",
+    "password": "zh",
+    "servershell": "zsh",
+    "clientpass": "123",
+    "clientport": "7890",
+    "info": "(4x GeForce RTX 2080 Ti) 注意：2号GPU（从0开始）已损坏，在训练时不要使用，在主目录下创建一个内容为2的.gpu_log.txt来排除它"
+}

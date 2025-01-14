@@ -1,0 +1,16 @@
+{
+    "num_cameras": 1,
+    "cameras": [
+        {
+            "device": "cs532",
+            "video": "AIC20-c001"
+        }
+    ],
+    "bandwidth_matrix": [
+        [10]
+    ],
+    "task_name": "faster_rcnn",
+    "codec": "mesh",
+    "load_balancer": "none",
+    "propagate": "none"
+}

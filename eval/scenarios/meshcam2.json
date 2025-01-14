@@ -1,0 +1,21 @@
+{
+    "num_cameras": 2,
+    "cameras": [
+        {
+            "device": "AGXXavier",
+            "video": "AIC20-c001"
+        },
+        {
+            "device": "AGXOrin",
+            "video": "AIC20-c002"
+        }
+    ],
+    "bandwidth_matrix": [
+        [10, 10],
+        [10, 10]
+    ],
+    "task_name": "faster_rcnn",
+    "codec": "mesh",
+    "load_balancer": "mesh",
+    "propagate": "mesh"
+}

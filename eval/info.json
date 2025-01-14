@@ -1,0 +1,121 @@
+{
+    "edge_server_info": {
+        "name": "cs532",
+        "ip": "114.212.87.103",
+        "port": 5055
+    },
+    "cameras_info": [
+        {
+            "name": "cs532",
+            "ip": "114.212.87.103",
+            "port": 5056,
+            "capacity": 0.03
+        },
+        {
+            "name": "AGXOrin",
+            "ip": "114.212.85.250",
+            "port": 5055,
+            "capacity": 0.04
+        },
+        {
+            "name": "AGXXavier",
+            "ip": "114.212.84.42",
+            "port": 5055,
+            "capacity": 0.07
+        },
+        {
+            "name": "JetsonNX",
+            "ip": "114.212.86.61",
+            "port": 5055,
+            "capacity": 0.14
+        },
+        {
+            "name": "JetsonTX2",
+            "ip": "114.212.87.33",
+            "port": 5055,
+            "capacity": 1 
+        }
+    ],
+    "videos_info": {
+        "AIC20-c001":{
+            "category": [103, 49, 275],
+            "frame_rate": 30,
+            "frame_total": 500
+        },
+        "AIC20-c002": {
+            "category": [60],
+            "frame_rate": 30,
+            "frame_total": 500
+        },
+        "AIC20-c003": {
+            "category": [60],
+            "frame_rate": 30,
+            "frame_total": 500
+        },
+        "AIC20-c004": {
+            "category": [60],
+            "frame_rate": 30,
+            "frame_total": 500
+        },
+        "AIC20-c006": {
+            "category": [60],
+            "frame_rate": 30,
+            "frame_total": 500
+        },
+        "AIC20-c007": {
+            "category": [60],
+            "frame_rate": 30,
+            "frame_total": 500
+        },
+        "AIC20-c008": {
+            "category": [60],
+            "frame_rate": 30,
+            "frame_total": 500
+        },
+        "AIC20-c009": {
+            "category": [60],
+            "frame_rate": 30,
+            "frame_total": 500
+        },
+        "MOT17-01": {
+            "category": [60],
+            "frame_rate": 30,
+            "frame_total": 500
+        },
+        "MOT17-02": {
+            "category": [60],
+            "frame_rate": 30,
+            "frame_total": 500
+        },
+        "MOT17-08": {
+            "category": [60],
+            "frame_rate": 30,
+            "frame_total": 500
+        },
+        "MOT17-09": {
+            "category": [60],
+            "frame_rate": 30,
+            "frame_total": 500
+        },
+        "CAVIAR-1": {
+            "category": [60],
+            "frame_rate": 30,
+            "frame_total": 500
+        },
+        "CAVIAR-2": {
+            "category": [60],
+            "frame_rate": 30,
+            "frame_total": 500
+        },
+        "CAVIAR-3": {
+            "category": [60],
+            "frame_rate": 30,
+            "frame_total": 500
+        },
+        "CAVIAR-4": {
+            "category": [60],
+            "frame_rate": 30,
+            "frame_total": 500
+        }
+    }
+}

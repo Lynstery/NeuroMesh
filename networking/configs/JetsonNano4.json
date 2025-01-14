@@ -1,0 +1,9 @@
+{
+    "host": "114.212.85.152",
+    "username": "nvidia",
+    "password": "nvidia",
+    "servershell": "bash",
+    "clientpass": "123",
+    "clientport": "7890",
+    "info": "(JetPack 4.6.1 4GB)"
+}

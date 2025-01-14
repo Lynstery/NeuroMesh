@@ -1,0 +1,9 @@
+{
+    "host": "114.212.85.250",
+    "username": "orin",
+    "password": "orin123",
+    "servershell": "bash",
+    "clientpass": "123",
+    "clientport": "7890",
+    "info": "(Jetpack 5.1.1)"
+}
